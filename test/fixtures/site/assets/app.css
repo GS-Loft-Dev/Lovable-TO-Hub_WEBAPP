@@ -1,0 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+body{font-family:Inter,sans-serif;margin:0}
+.hero{background:url("./bg.svg") center/cover;padding:80px}
+.card{border:1px solid #ddd;padding:16px}
