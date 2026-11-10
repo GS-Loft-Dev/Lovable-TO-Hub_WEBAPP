@@ -1,0 +1,36 @@
+{
+  "name": "lovable-to-hubspot",
+  "version": "0.1.0",
+  "description": "Self-hostable web app that turns a Lovable project into an editable HubSpot CMS theme and publishes it, with Lovable and HubSpot login.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@netlify/blobs": "^11.1.9",
+    "@sparticuz/chromium-min": "^153.0.0",
+    "cheerio": "^1.2.0",
+    "domhandler": "^6.0.1",
+    "iron-session": "^9.0.1",
+    "jszip": "^3.10.2",
+    "next": "^15.5.29",
+    "playwright-core": "^1.65.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "typescript": "^5.9.3",
+    "vitest": "^5.1.0"
+  },
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  }
+}

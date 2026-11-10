@@ -1,0 +1,12 @@
+# Netlify deploys this app with its Next.js runtime (detected automatically).
+# Required environment variables (Site configuration > Environment variables,
+# scope "Functions" included): SESSION_SECRET, plus the Lovable/HubSpot logins
+# you use. APP_URL defaults to the site's primary URL. See /tutorial.
+
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+[build.environment]
+  NODE_VERSION = "22"
+  NEXT_TELEMETRY_DISABLED = "1"
